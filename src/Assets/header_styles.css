@@ -1,0 +1,69 @@
+.Header{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px #ccc;
+}
+
+.Header h1{
+  text-align: center;
+}
+
+.Header ul{
+  position: absolute;
+  width: 8%;
+  top: 0;
+  height: 100%;
+}
+
+.Header li{
+  list-style-type: none;
+}
+
+
+.e1 button, .e2 button, .e3 button, .e4 button, .e5 button{
+  padding: 17px;
+  width: 130px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+.e1 button:hover, .e2 button:hover, .e3 button:hover, .e4 button:hover, .e5 button:hover{
+  transition: .4s;
+  background-color: white;
+  color: black;
+}
+
+.e1, .e2, .e3, .e4, .e5{
+  position: absolute;
+  border: 1px solid white;
+  box-shadow: 0 2px #eee;
+  width: 70%;
+}
+
+.e1{
+  left: -3px;
+}
+
+.e2{
+  left: -3px;
+  top: 50px;
+}
+
+.e3{
+  left: -3px;
+  top: 100px;
+}
+
+.e4{
+  left: -3px;
+  top: 150px;
+}
+
+.e5{
+  left: -3px;
+  top: 200px;
+}

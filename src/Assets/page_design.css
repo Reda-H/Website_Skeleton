@@ -1,13 +1,4 @@
-.Header{
-  width: 100%;
-  height: 300px;
-  border: 1px solid #eee;
-  box-shadow: 0 2px #ccc;
-}
-
-.Header ul li{
-  display: inline-block;
-}
+@import url("header_styles.css");
 
 .Body{
   margin: 0;
@@ -25,6 +16,24 @@
   height: 120px;
   display: inline-block;
   margin: 10px;
+}
+
+.AddBoxButton{
+  border: 1px solid #eee;
+  box-shadow: 0 2px #ccc;
+  width: 200px;
+  height: 120px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.AddBoxButton:hover{
+  box-shadow: 1px 4px #ccc;
+  cursor: pointer;
+}
+
+.AddBoxButton h2, .AddBoxButton p{
+  text-align: center;
 }
 
 .Box h2, .Box p{

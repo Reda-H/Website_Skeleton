@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Box from "./Boxes/box";
+import AddBoxButton from "./AddBoxes/addboxbutton";
 
 class Body extends Component {
 
@@ -10,6 +11,7 @@ class Body extends Component {
           <Box />
           <Box />
           <Box />
+          <AddBoxButton />
       </div>
     );
   }
